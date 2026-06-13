@@ -35,6 +35,7 @@ Berikut adalah penjelasan folder dan file penting di dalam *repository* ini:
   * `index.php`: Halaman beranda yang memuat *banner carousel*, filter pencarian, dan katalog produk.
   * `detail.php`: Menampilkan detail spesifik dari sebuah produk beserta kolom komentar/ulasan.
   * `cart.php`: Halaman manajemen keranjang belanja.
+  * `update_quantity.php`: Menangani logika penambahan (`+`) atau pengurangan (`-`) jumlah barang di keranjang beserta validasi batas stok.
   * `checkout.php`: Menangani logika penyimpanan data pesanan ke dalam *database*.
   * `history.php`: Halaman untuk melihat riwayat transaksi pengguna.
   * `detail_order.php`: Menampilkan rincian dari satu ID pesanan spesifik.
